@@ -7,22 +7,16 @@ sections:
 - type: heading
   label: Content
 - type: directory
-  path: content/post
-  label: Post
-  create: documents
-  match: "**/*"
-  templates:
-  - post
-- type: directory
   path: content
   label: Pages
   create: all
   match: "*"
 - type: directory
-  path: content/homepage
-  label: Homepage
+  path: content/home
+  label: Home
   create: all
   match: "**/*"
+  new_doc_ext: ".md"
 - type: document
   path: config.toml
   label: Site configuration
@@ -31,7 +25,7 @@ sections:
 - type: document
   path: README.md
   label: README
-  read_only: true
+  read_only: false
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
