@@ -1,13 +1,13 @@
 DefaultContentLanguage = "en"
-author = "Steve Francia"
+author = "Logan Bek"
 baseURL = "https://gohugo.io/"
-copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+copyright = "Copyright © 2021, Kogecoin; all rights reserved."
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 languageCode = "en"
-paginate = 3
+paginate = 2
 theme = "github.com/jonathanjanssens/hugo-casper3"
-title = "Hugo Themes"
+title = "Kogecoin on Polygon"
 [[menu.main]]
 identifier = "about"
 name = "About"
@@ -29,12 +29,12 @@ name = "Author Homepage"
 url = "https://jonathanjanssens.com"
 weight = 40
 [params]
-description = "Just a demo site for the Casper3 theme ported to Hugo"
-facebook = "https://facebook.com"
-github = "https://github.com/jonathanjanssens"
+description = "Kogecoin.io - Informational site for Kogecoin.io + Kogefarm.io on Polygon"
+facebook = ""
+github = "https://github.com/kogecoin"
 logo = "/images/ghost-transparent.png"
 mainSections = ["post"]
-twitter = "https://twitter.com"
+twitter = "https://twitter.com/kogecoin"
 [privacy.instagram]
 disabled = false
 simple = true
